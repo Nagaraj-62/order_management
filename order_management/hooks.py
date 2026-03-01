@@ -5,6 +5,20 @@ app_description = "order_management"
 app_email = "nagaraju@gmail.com"
 app_license = "mit"
 
+
+
+
+# doc_events = {
+#     "Sales Order": {
+#         "on_update": "order_management.events.on_update_sales_order"
+#     }
+# }
+
+# scheduler_events = {
+#     "daily": [
+#         "order_management.tasks.daily_cancel_check"
+#     ]
+# }
 # Apps
 # ------------------
 
