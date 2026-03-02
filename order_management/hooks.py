@@ -8,17 +8,17 @@ app_license = "mit"
 
 
 
-# doc_events = {
-#     "Sales Order": {
-#         "on_update": "order_management.events.on_update_sales_order"
-#     }
-# }
+doc_events = {
+    "Sales Order": {
+        "on_update": "order_management.events.on_update_sales_order"
+    }
+}
 
-# scheduler_events = {
-#     "daily": [
-#         "order_management.tasks.daily_cancel_check"
-#     ]
-# }
+scheduler_events = {
+    "daily": [
+        "order_management.tasks.daily_cancel_check"
+    ]
+}
 # Apps
 # ------------------
 
